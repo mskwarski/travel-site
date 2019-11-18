@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "scripts": {
     "dev": "webpack-dev-server",
+    "build": "webpack",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "dependencies": {
@@ -12,7 +13,8 @@
     "lodash": "^4.17.15",
     "normalize.css": "^8.0.1",
     "react": "^16.11.0",
-    "react-dom": "^16.11.0"
+    "react-dom": "^16.11.0",
+    "save-dev": "0.0.1-security"
   },
   "devDependencies": {
     "@babel/core": "^7.7.2",
