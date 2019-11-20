@@ -1,0 +1,20 @@
+.trySVG {    
+    background-color: blue;
+    width: 100%;
+    height: auto;
+    
+    &__bg {
+        position: relative;
+        margin-left: 0;
+        margin-right: auto;
+    }
+
+    &__arrow {
+        position: absolute;
+        transform: scale(.8);
+        z-index: 2;
+    }
+
+    
+}
+
